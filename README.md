@@ -43,3 +43,8 @@ The program logs various actions taken by the philosophers:
 - The program must handle multiple threads.
 - Each philosopher represents a thread, and forks are protected with mutexes to avoid race conditions (tested with hellgrind).
 - External functions allowed : `pthread_create`, `pthread_detach`, `pthread_join`, `pthread_mutex_init`, `pthread_mutex_lock`, `pthread_mutex_unlock`, `pthread_mutex_destroy`, `usleep`, `gettimeofday`, `malloc`, `free`, `write`
+
+
+## Result
+
+![result](./ressources/philosopher_result.png)
