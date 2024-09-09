@@ -1,6 +1,6 @@
 # <img src="https://logowik.com/content/uploads/images/423918.logowik.com.webp" style="width: 40px; height: auto;"> This project is part of my cursus at School 42 <img src="https://logowik.com/content/uploads/images/423918.logowik.com.webp" style="width: 40px; height: auto;">
 
-## About This Project
+## 💡 About This Project
 
 The Philosophers project is part of the 42 curriculum. The main goal is to simulate the dining philosophers problem, a classic synchronization issue in computer science, using threads and mutexes. The project serves as an introduction to multithreading, thread synchronization, and resource management in C.
 
@@ -8,7 +8,7 @@ In this simulation, multiple philosophers sit around a table, alternating betwee
 
 [Dining Philosophers Problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem)
 
-## Running the Program
+## 🛠️ Running the Program
 
 1. `git clone https://github.com/thibault-deverge/42-Cursus__philosopher philosopher`
 2. `cd philosopher`
@@ -38,7 +38,7 @@ The program logs various actions taken by the philosophers:
 - When a philosopher starts thinking.
 - When a philosopher dies (if applicable).
 
-## Requirements
+## 📋Requirements
 
 - The program must handle multiple threads.
 - Each philosopher represents a thread, and forks are protected with mutexes to avoid race conditions (tested with hellgrind).
